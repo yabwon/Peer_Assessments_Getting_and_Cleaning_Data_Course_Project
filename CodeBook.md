@@ -9,14 +9,14 @@ File TIDY.TXT is build as follows:
 4) columns are separated by vertical bar ("|"), decimal point is dot (".")
 
 5) first column named "activity_name" is character, contains following walues: 
-LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS  
+LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, walues are unquoted 
 
 6) second column named "subject" is integer ranged between 1 and 30
 
 7) remaining 79 columns named "mean_of_..." ar numeric
 
 8) "mean_of_..." columns are averages of "..." columns in original data set, 
-aggregation was made by "activity_name" and "subject"
+aggregation was performed by columns: "activity_name" and "subject"
 
 9) the "..." columns are following: 
 "tBodyAcc-mean()-X", "tBodyAcc-mean()-Y", "tBodyAcc-mean()-Z", "tBodyAcc-std()-X", "tBodyAcc-std()-Y", 
