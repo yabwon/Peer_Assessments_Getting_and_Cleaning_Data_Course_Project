@@ -1,8 +1,8 @@
-file TIDY.TXT is build as follows:
+File TIDY.TXT is build as follows:
 
-1) number of rows = 180
+1) number of rows is 180
 
-2) number of collumns = 81
+2) number of collumns is 81
 
 3) first row contains columns names
 
