@@ -22,7 +22,7 @@ How the script run_analysis.R works:
 
 08) lines 54 to 70 - reads up files ./train/X_test.txt, ./train/subject_test.txt ./train/y_test.txt and makes them data.tables, sets up names, checks X_test's head and object size
 
-09) lines 72 to 78 - creates two data.tables: total_train and total_test based on 3 "train" tables and 3 "test" tables (created in stepss 07 asn 08)
+09) lines 72 to 78 - creates two data.tables: total_train and total_test based on 3 "train" tables and 3 "test" tables (created in steps 07 asn 08)
 
 10) line 83 - bind total_train and total_test in one table named "total" using data.table::rbindlist function
 
