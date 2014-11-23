@@ -12,7 +12,7 @@ How the script run_analysis.R works:
 
 03) line 11 - loads data.table package (user must install the package)
 
-04) line 16 - sets up new WD [".../UCI HAR Dataset"] (user must write one)
+04) line 16 - sets up new WD with directory ".../UCI HAR Dataset" as root (user must write one)
 
 05) lines 18 to 26 - reads up file activity_labels.txt, make it data.table, sets names and key, checks head
 
